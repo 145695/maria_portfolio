@@ -1,15 +1,56 @@
 [
-  { "name": "HTML/CSS", "level": 95, "category": "frontend", "iconSlug": "html5" },
-  { "name": "Javascript", "level": 95, "category": "frontend", "iconSlug": "javascript" },
-  { "name": "React", "level": 95, "category": "frontend", "iconSlug": "react" },
-  { "name": "Next.js", "level": 95, "category": "frontend", "iconSlug": "nextdotjs" },
-  { "name": "Tailwind", "level": 95, "category": "frontend", "iconSlug": "tailwindcss" },
-  { "name": "Three.js", "level": 95, "category": "frontend", "iconSlug": "threedotjs" },
-  { "name": "Node.js", "level": 95, "category": "backend", "iconSlug": "nodedotjs" },
-  { "name": "Express.js", "level": 95, "category": "backend", "iconSlug": "express" },
-  { "name": "MongoDB", "level": 95, "category": "backend", "iconSlug": "mongodb" },
-  { "name": "MySQL", "level": 95, "category": "backend", "iconSlug": "mysql" },
-  { "name": "Git", "level": 95, "category": "version control", "iconSlug": "git" },
-  { "name": "GitHub", "level": 95, "category": "version control", "iconSlug": "github" },
-  { "name": "Figma", "level": 95, "category": "design", "iconSlug": "figma" }
+  {
+    "name": "HTML/CSS",
+    "level": 95,
+    "category": "frontend",
+    "iconSlug": "html5"
+  },
+  {
+    "name": "Javascript",
+    "level": 95,
+    "category": "frontend",
+    "iconSlug": "javascript"
+  },
+  {
+    "name": "React",
+    "level": 95,
+    "category": "frontend",
+    "iconSlug": "react"
+  },
+  {
+    "name": "Node.js",
+    "level": 95,
+    "category": "backend",
+    "iconSlug": "nodedotjs"
+  },
+  {
+    "name": "MongoDB",
+    "level": 80,
+    "category": "backend",
+    "iconSlug": "mongodb"
+  },
+  {
+    "name": "MySQL",
+    "level": 95,
+    "category": "backend",
+    "iconSlug": "mysql"
+  },
+  {
+    "name": "Git",
+    "level": 95,
+    "category": "version control",
+    "iconSlug": "git"
+  },
+  {
+    "name": "GitHub",
+    "level": 95,
+    "category": "version control",
+    "iconSlug": "github"
+  },
+  {
+    "name": "Figma",
+    "level": 70,
+    "category": "design",
+    "iconSlug": "figma"
+  }
 ]
