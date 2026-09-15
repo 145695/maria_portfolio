@@ -15,7 +15,7 @@ export const AboutSection = () => {
           multilingual chatbots, and everything in between. Outside of coding. I'm a lifelong learner 
           always picking up a new language or a new skill. </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="#contects" className="cosmic-button" style={{ pointerEvents: 'auto' }}> Get in touch</a>
+          <a href="#contacts" className="cosmic-button" style={{ pointerEvents: 'auto' }}> Get in touch</a>
           <a href="" className=" px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-color duration-300" style={{ pointerEvents: 'auto' }}> Download CV</a>
         </div>
       </div>
