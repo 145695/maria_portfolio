@@ -2,27 +2,10 @@ import { useState, useEffect } from "react";
 import skills from '../data/skills.json';
 const categories = ["frontend", "backend", "version control", "design"];
 
-const skillIcons = {
-  "HTML/CSS": "html5",
-  "Javascript": "javascript",
-  "React": "react",
-  "Next.js": "nextdotjs",
-  "Tailwind": "tailwindcss",
-  "Three.js": "threedotjs",
-  "Node.js": "nodedotjs",
-  "Express.js": "express",
-  "MongoDB": "mongodb",
-  "MySQL": "mysql",
-  "Git": "git",
-  "GitHub": "github",
-  "Figma": "figma",
-};
-
-const SkillRing = ({ name, level }) => {
+const SkillRing = ({ name, level, iconSlug }) => {
   const radius = 40;
   const circumference = 2 * Math.PI * radius;
   const [animatedLevel, setAnimatedLevel] = useState(0);
-  const iconSlug = skillIcons[name];
 
   useEffect(() => {
     const timeout = setTimeout(() => setAnimatedLevel(level), 50);
@@ -76,11 +59,7 @@ export const SkillsSection = () => {
           My <span className="text-primary">Skills</span>
         </h2>
 
-        {/* category buttons */}
-        <div
-          className="flex flex-wrap justify-center gap-3 mb-12"
-          style={{ pointerEvents: "auto" }}
-        >
+        <div className="flex flex-wrap justify-center gap-3 mb-12" style={{ pointerEvents: "auto" }}>
           {categories.map((category) => (
             <button
               key={category}
@@ -97,10 +76,14 @@ export const SkillsSection = () => {
           ))}
         </div>
 
-        {/* skill rings for active category */}
         <div className="flex flex-wrap justify-center gap-8 min-h-[180px] items-center">
           {filteredSkills.map((skill) => (
-            <SkillRing key={`${activeCategory}-${skill.name}`} name={skill.name} level={skill.level} />
+            <SkillRing
+              key={`${activeCategory}-${skill.name}`}
+              name={skill.name}
+              level={skill.level}
+              iconSlug={skill.iconSlug}
+            />
           ))}
         </div>
       </div>
