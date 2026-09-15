@@ -1,16 +1,15 @@
 [
-  { "name": "HTML/CSS", "level": 95, "category": "frontend" },
-  { "name": "Javascript", "level": 95, "category": "frontend" },
-  { "name": "React", "level": 95, "category": "frontend" },
-  { "name": "Next.js", "level": 95, "category": "frontend" },
-  { "name": "Tailwind", "level": 95, "category": "frontend" },
-  { "name": "Three.js", "level": 95, "category": "frontend" },
-  { "name": "Node.js", "level": 95, "category": "backend" },
-  { "name": "Express.js", "level": 95, "category": "backend" },
-  { "name": "MongoDB", "level": 95, "category": "backend" },
-  { "name": "MySQL", "level": 95, "category": "backend" },
-  { "name": "Git", "level": 95, "category": "version control" },
-  { "name": "GitHub", "level": 95, "category": "version control" },
-  { "name": "Figma", "level": 95, "category": "design" }
-
+  { "name": "HTML/CSS", "level": 95, "category": "frontend", "iconSlug": "html5" },
+  { "name": "Javascript", "level": 95, "category": "frontend", "iconSlug": "javascript" },
+  { "name": "React", "level": 95, "category": "frontend", "iconSlug": "react" },
+  { "name": "Next.js", "level": 95, "category": "frontend", "iconSlug": "nextdotjs" },
+  { "name": "Tailwind", "level": 95, "category": "frontend", "iconSlug": "tailwindcss" },
+  { "name": "Three.js", "level": 95, "category": "frontend", "iconSlug": "threedotjs" },
+  { "name": "Node.js", "level": 95, "category": "backend", "iconSlug": "nodedotjs" },
+  { "name": "Express.js", "level": 95, "category": "backend", "iconSlug": "express" },
+  { "name": "MongoDB", "level": 95, "category": "backend", "iconSlug": "mongodb" },
+  { "name": "MySQL", "level": 95, "category": "backend", "iconSlug": "mysql" },
+  { "name": "Git", "level": 95, "category": "version control", "iconSlug": "git" },
+  { "name": "GitHub", "level": 95, "category": "version control", "iconSlug": "github" },
+  { "name": "Figma", "level": 95, "category": "design", "iconSlug": "figma" }
 ]
