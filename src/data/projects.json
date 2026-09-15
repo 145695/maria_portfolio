@@ -1,0 +1,16 @@
+[
+  {
+    "title": "MACES — Banking Conversational AI",
+    "description": "A multilingual conversational AI for banking client support, from model fine-tuning and RAG pipeline design to full Dockerized deployment on Azure via Terraform, with a CI/CD pipeline.",
+    "repoUrl": "https://github.com/145695/buildong_framwork_client_support",
+    "image": "",
+    "downloadUrl": "",
+    "tech": [
+      "FastAPI",
+      "LangGraph",
+      "Docker",
+      "Terraform",
+      "Azure"
+    ]
+  }
+]
