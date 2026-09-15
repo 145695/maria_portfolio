@@ -12,5 +12,13 @@
       "Terraform",
       "Azure"
     ]
+  },
+  {
+    "title": "Face Detection + Age/Gender Recognition",
+    "description": "A computer vision project detecting faces and predicting age/gender in real time.",
+    "repoUrl": "https://github.com/145695/Face-Detection",
+    "image": "",
+    "downloadUrl": "hello", 
+    "tech": ["Python", "OpenCV", "TensorFlow"]
   }
 ]

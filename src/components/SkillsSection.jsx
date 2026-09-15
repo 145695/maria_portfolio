@@ -1,21 +1,5 @@
-import { useState, useEffect, useRef } from "react";
-
-const skills = [
-  { name: "HTML/CSS", level: 95, category: "frontend" },
-  { name: "Javascript", level: 95, category: "frontend" },
-  { name: "React", level: 95, category: "frontend" },
-  { name: "Next.js", level: 95, category: "frontend" },
-  { name: "Tailwind", level: 95, category: "frontend" },
-  { name: "Three.js", level: 95, category: "frontend" },
-  { name: "Node.js", level: 95, category: "backend" },
-  { name: "Express.js", level: 95, category: "backend" },
-  { name: "MongoDB", level: 95, category: "backend" },
-  { name: "MySQL", level: 95, category: "backend" },
-  { name: "Git", level: 95, category: "version control" },
-  { name: "GitHub", level: 95, category: "version control" },
-  { name: "Figma", level: 95, category: "design" },
-];
-
+import { useState, useEffect } from "react";
+import skills from '../data/skills.json';
 const categories = ["frontend", "backend", "version control", "design"];
 
 const skillIcons = {

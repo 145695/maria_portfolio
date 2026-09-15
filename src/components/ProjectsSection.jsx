@@ -1,16 +1,5 @@
 import {  ExternalLink } from "lucide-react";
-
-const projects = [
-  {
-    title: "Face Detection + Age/Gender Recognition",
-    description: "A computer vision project detecting faces and predicting age/gender in real time.",
-    repoUrl: "https://github.com/145695/Face-Detection",
-    image: "",
-    downloadUrl: "hello", 
-    tech: ["Python", "OpenCV", "TensorFlow"],
-  },
-  // add more projects here
-];
+import projects from "../data/projects.json";
 
 export const ProjectsSection = () => {
   return (
