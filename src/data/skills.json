@@ -58,5 +58,11 @@
     "level": 80,
     "category": "AI",
     "iconSlug": "python"
+  },
+  {
+    "name": "LangGraph",
+    "level": 80,
+    "category": "AI",
+    "iconSlug": "sparkles"
   }
 ]
