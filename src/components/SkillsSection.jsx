@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import skills from '../data/skills.json';
-const categories = ["frontend", "backend", "version control", "design","AI"];
+const categories = ["frontend", "backend", "version control", "design","AI","DevOps"];
 
 const SkillRing = ({ name, level, iconSlug }) => {
   const radius = 40;
