@@ -52,5 +52,11 @@
     "level": 70,
     "category": "design",
     "iconSlug": "figma"
+  },
+  {
+    "name": "Python",
+    "level": 80,
+    "category": "AI",
+    "iconSlug": "python"
   }
 ]
