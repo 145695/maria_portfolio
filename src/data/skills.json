@@ -64,5 +64,11 @@
     "level": 80,
     "category": "AI",
     "iconSlug": "langgraph"
+  },
+  {
+    "name": "Terraform",
+    "level": 80,
+    "category": "DevOps",
+    "iconSlug": "terraform"
   }
 ]
