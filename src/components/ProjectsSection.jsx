@@ -1,6 +1,6 @@
 import {  ExternalLink } from "lucide-react";
 import projects from "../data/projects.json";
-
+import courses from "../data/courses.json";
 export const ProjectsSection = () => {
   return (
     <section id="projects" className="py-24 relative px-4">
@@ -66,26 +66,73 @@ export const ProjectsSection = () => {
 export const TeachingSection = () => {
   return (
     <section id="teaching" className="py-24 relative px-4 bg-second">
-      <div className="container mx-auto max-w-3xl text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">
+      <div className="container mx-auto max-w-5xl">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
           Teaching <span className="text-primary">CS</span>
         </h2>
-        <p className="text-muted-foreground mb-8">
+        <p className="text-muted-foreground text-center mb-8 max-w-2xl mx-auto">
           I share computer science and software engineering tutorials on Instagram —
           a full course is on the way, but for now you can follow along there.
         </p>
-        <a
-          href="https://instagram.com/maria_learn_cs"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="cosmic-button inline-flex items-center gap-2"
-          style={{ pointerEvents: "auto" }}
-        >
-           <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg"
-                alt="Instagram"
-                className="h-5 w-5 dark:invert"/>
-          Follow @maria_learn_cs
-        </a>
+
+        <div className="flex justify-center mb-12">
+          <a
+            href="https://instagram.com/maria_learn_cs"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cosmic-button inline-flex items-center gap-2"
+            style={{ pointerEvents: "auto" }}
+          >
+            <img
+              src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg"
+              alt="Instagram"
+              className="h-5 w-5 dark:invert"
+            />
+            Follow @maria_learn_cs
+          </a>
+        </div>
+
+        {courses.length > 0 && (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {courses.map((course) => (
+              <div
+                key={course.title}
+                className="gradient-border overflow-hidden card-hover p-6"
+                style={{ pointerEvents: "auto" }}
+              >
+                <h3 className="text-xl font-semibold mb-2">{course.title}</h3>
+                <p className="text-muted-foreground text-sm mb-4">
+                  {course.description}
+                </p>
+
+                {course.tags && course.tags.length > 0 && (
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {course.tags.map((tag) => (
+                      <span
+                        key={tag}
+                        className="text-xs px-3 py-1 rounded-full bg-primary/10 text-primary font-medium"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
+
+                {course.link && (
+                  <a
+                    href={course.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1 text-sm text-primary hover:underline"
+                    style={{ pointerEvents: "auto" }}
+                  >
+                    <ExternalLink className="h-4 w-4" /> View
+                  </a>
+                )}
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </section>
   );
