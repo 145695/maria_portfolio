@@ -18,7 +18,21 @@
     "description": "A computer vision project detecting faces and predicting age/gender in real time.",
     "repoUrl": "https://github.com/145695/Face-Detection",
     "image": "",
-    "downloadUrl": "hello", 
-    "tech": ["Python", "OpenCV", "TensorFlow"]
+    "downloadUrl": "https://github.com/145695/Face-Detection/releases/download/computer_vision/main.exe",
+    "tech": [
+      "Python",
+      "OpenCV",
+      "TensorFlow"
+    ]
+  },
+  {
+    "title": "my wordle",
+    "description": "A cozy, pastel-pink take on Wordle — built with Expo. Guess the word (3 to 6 letters) in the same number of tries as its length, with a soft, minimal keyboard and board.",
+    "repoUrl": "https://github.com/145695/my_pink_wordle",
+    "image": "",
+    "downloadUrl": "https://github.com/145695/my_pink_wordle/releases/download/wordle/application-dd8e9615-555d-4bf4-b5c7-076892750fa2.apk",
+    "tech": [
+      "expo;reactnative;javascript"
+    ]
   }
 ]
