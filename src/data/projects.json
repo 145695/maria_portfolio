@@ -32,7 +32,9 @@
     "image": "",
     "downloadUrl": "https://github.com/145695/my_pink_wordle/releases/download/wordle/application-dd8e9615-555d-4bf4-b5c7-076892750fa2.apk",
     "tech": [
-      "expo;reactnative;javascript"
+      "expo",
+      "reactnative",
+      "javascript"
     ]
   }
 ]
