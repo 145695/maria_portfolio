@@ -1,8 +1,8 @@
 [
   {
-    "title": "Intro to Data Structures",
-    "description": "Arrays, linked lists, stacks and queues explained with real code examples.",
-    "link": "https://instagram.com/maria_learn_cs",
+    "title": "Machine Learning for Beginners",
+    "description": "# What you'll learn\n\nThe core ideas behind machine learning — how models learn from data, the main types of ML (supervised, unsupervised, reinforcement), and how to actually build, train and evaluate a model in code. No advanced math required to start.",
+    "link": "https://freckle-coconut-dfb.notion.site/Machine-Learning-for-Beginners-3e069e0c2e92812ca9aad0eb4cf0f6e7?pvs=74",
     "tags": [
       "newcourse"
     ]
