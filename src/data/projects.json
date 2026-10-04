@@ -36,5 +36,21 @@
       "reactnative",
       "javascript"
     ]
+  },
+  {
+    "title": "Maris",
+    "description": "Maris is a fitness plan generator and tracker for mobile. It builds a personalised workout plan from a 5-step profile test, adjusting for age, availability, injuries, and health history. Users log workouts, macros, water, and sleep, and see streaks and monthly stats.",
+    "repoUrl": "https://github.com/145695/Maris_fitness_app",
+    "image": "",
+    "downloadUrl": "https://github.com/145695/Maris_fitness_app/releases/download/v.0.1/maris-fitness-v1.0.0.apk",
+    "tech": [
+      "React Native (Expo)",
+      "Node.js",
+      "MySQL",
+      "MongoDB",
+      "Render",
+      "Aiven",
+      "MongoDB Atlas"
+    ]
   }
 ]
