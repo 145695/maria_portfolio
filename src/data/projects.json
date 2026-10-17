@@ -52,5 +52,22 @@
       "Aiven",
       "MongoDB Atlas"
     ]
+  },
+  {
+    "title": "Book tracker",
+    "description": "A full-stack mobile app designed to make reading distraction-free. Features a custom 3D animated character that reads alongside you, interactive reading sessions with a stopwatch, text and voice note-taking, and ambient focus sounds. Built with React Native, Expo, and a custom Node.js backend.",
+    "repoUrl": "https://github.com/145695/book_tracker",
+    "image": "",
+    "downloadUrl": "https://github.com/145695/book_tracker/releases/download/V.0.1/book_tracker_v1.apk",
+    "tech": [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Three.js",
+      "Render"
+    ]
   }
 ]
