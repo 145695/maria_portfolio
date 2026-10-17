@@ -69,5 +69,22 @@
       "Three.js",
       "Render"
     ]
+  },
+  {
+    "title": "Bioworld: Interactive Evolution Simulator",
+    "description": "Bioworld is a real-time, open-ended ecosystem simulator built from scratch. Users can drop creatures into a sandbox, paint environments (desert, cold, normal), and watch as the creatures' DNA mutates over generations to survive. \n\nThe simulation features a custom-built genetic engine where survival drives adaptation. Creatures naturally evolve traits like fur, heat resistance, and even predatory behaviors based on environmental pressures and starvatio. The project also includes an educational portal explaining the real-world biology behind the simulation.",
+    "repoUrl": "https://github.com/145695/evolution_sanbox",
+    "image": "",
+    "downloadUrl": "https://biomworld-maria.vercel.app/",
+    "tech": [
+      "React",
+      "Vite",
+      "JavaScript",
+      "HTML5 Canvas",
+      "CSS3",
+      "React Router",
+      "Lucide Icons",
+      "Vercel"
+    ]
   }
 ]
