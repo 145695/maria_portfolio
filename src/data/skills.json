@@ -70,5 +70,11 @@
     "level": 80,
     "category": "DevOps",
     "iconSlug": "terraform"
+  },
+  {
+    "name": "Docker",
+    "level": 90,
+    "category": "DevOps",
+    "iconSlug": "docker"
   }
 ]
