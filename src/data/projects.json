@@ -86,5 +86,22 @@
       "Lucide Icons",
       "Vercel"
     ]
+  },
+  {
+    "title": "Timo",
+    "description": "Timo is a cute, 100% offline AI study companion that lives on your screen. Using your webcam, it uses a combination of MediaPipe, YOLO, and XGBoost to estimate if you are focused, distracted, or tired. It features a built-in Pomodoro timer, a to-do list, and an animated character that nudges you to stay on task without ever saving your data or sending it to the cloud.",
+    "repoUrl": "https://github.com/145695/timo",
+    "image": "",
+    "downloadUrl": "https://github.com/145695/timo/releases/download/0.0.1/Timo_Installer.exe",
+    "tech": [
+      "Python",
+      "PySide6",
+      "MediaPipe",
+      "Ultralytics YOLO",
+      "XGBoost",
+      "OpenCV",
+      "PyInstaller",
+      "Inno Setup"
+    ]
   }
 ]
