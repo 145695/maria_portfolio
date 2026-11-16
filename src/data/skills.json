@@ -76,5 +76,11 @@
     "level": 90,
     "category": "DevOps",
     "iconSlug": "docker"
+  },
+  {
+    "name": "Godot",
+    "level": 70,
+    "category": "Game dev",
+    "iconSlug": "godotengine"
   }
 ]
