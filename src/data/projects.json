@@ -103,5 +103,17 @@
       "PyInstaller",
       "Inno Setup"
     ]
+  },
+  {
+    "title": "Wake Up",
+    "description": "A 2D point-and-click psychological mystery. Trapped in a looping nightmare forest, you must solve bizarre dream-logic puzzles, trade with strange creatures, and brew the ultimate potion to finally open your eyes.",
+    "repoUrl": "https://github.com/145695/wake_up",
+    "image": "",
+    "downloadUrl": "https://maria2026.itch.io/wake-up",
+    "tech": [
+      "Godot",
+      "GDScript",
+      "Pixel Art"
+    ]
   }
 ]
